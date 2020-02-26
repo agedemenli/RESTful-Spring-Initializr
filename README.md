@@ -1,8 +1,9 @@
 # CMPE 492 - Senior Project
-> Ahmet Gedemenli
-> 2014400147
+> - Ahmet Gedemenli
+> - Advisor: Fatma Başak Aydemir
 ## RESTful Spring Initializr
 **Aim:** Generate RESTful Spring Boot applications with RESTful endpoints, services and customizations.
+
 **Motivation:** Get rid of repetitive coding effort for web service initializations.
 
 * Spring initializr will be used for creating an empty project with just basic Apache Maven dependencies.
