@@ -28,6 +28,7 @@
  * 5 . System shall generate Java classes for basic CRUD services.
  * 6 . System shall generate SQL queries for basic CRUD operations.
  * 7 . System shall generate SQL queries for creating database tables.
+ 
 **Non-Functional Requirements**
  * 1 . System shall report briefly in any case of error or wrong input.
  * 2 . System shall create the project in at most 5 seconds.
