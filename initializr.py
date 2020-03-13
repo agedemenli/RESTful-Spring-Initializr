@@ -8,7 +8,7 @@ class Initializr:
         # self.unzip()
 
     def make_curl(self):
-        os.system('curl https://start.spring.io/starter.zip -d name=' + self.app_name +
+        os.system('curl https://start.spring.io/starter.zip -d dependencies=security,web -d name=' + self.app_name +
                   ' -d language=java -d type=maven-project -d artifactId=' + self.app_name +
                   'app -d groupId=com.' + self.app_name + ' -o ' + self.app_name + '_initial.zip')
 
