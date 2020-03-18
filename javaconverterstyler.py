@@ -10,14 +10,17 @@ class JavaConverterStyler:
     def get_indentation(self):
         return self.indentation_space_count * ' '
 
-    def get_char_before_curly(self):
-        return self.get_beautify_space() if self.open_curly_brackets_same_line else '\n'
+    def open_scope(self, indent_count):
+        if self.open_curly_brackets_same_line:
+            return self.get_beautify_space() + "{\n"
+        else:
+            return "\n" + indent_count * self.get_indentation() + "{\n"
 
     def get_beautify_space(self):
-        return ' ' if self.beautify_with_spaces else ''
+        return " " if self.beautify_with_spaces else ""
 
     def get_beautify_line(self):
-        return '\n' if self.beautify_with_blank_lines else ''
+        return "\n" if self.beautify_with_blank_lines else ""
 
 
 def get_java_type(db_type):
