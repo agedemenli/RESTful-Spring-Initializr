@@ -1,8 +1,9 @@
 {
   "app_name": "kereviz",
   "indentation_space_count": 2,
-  "opening_curly_brackets_same_line": true,
+  "open_curly_brackets_same_line": true,
   "beautify_with_spaces": true,
+  "beautify_with_blank_lines": true,
   "entities": [
     {
       "entity_name": "user",
