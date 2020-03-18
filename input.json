@@ -1,3 +1,66 @@
- {
-  "app_name": "kereviz"
+{
+  "app_name": "kereviz",
+  "indentation_space_count": 2,
+  "opening_curly_brackets_same_line": true,
+  "beautify_with_spaces": true,
+  "entities": [
+    {
+      "entity_name": "user",
+      "fields": [
+        {
+          "field_name": "email",
+          "type": "varchar(255)"
+        },
+        {
+          "field_name": "password",
+          "type": "varchar(255)"
+        },
+        {
+          "field_name": "first_name",
+          "type": "varchar(255)"
+        },
+        {
+          "field_name": "last_name",
+          "type": "varchar(255)"
+        }
+      ]
+    },
+    {
+      "entity_name": "exercise",
+      "fields": [
+        {
+          "field_name": "question",
+          "type": "varchar(255)"
+        },
+        {
+          "field_name": "correct_answer",
+          "type": "integer"
+        },
+        {
+          "field_name": "option_a",
+          "type": "varchar(255)"
+        },
+        {
+          "field_name": "option_b",
+          "type": "varchar(255)"
+        },
+        {
+          "field_name": "option_c",
+          "type": "varchar(255)"
+        },
+        {
+          "field_name": "option_d",
+          "type": "varchar(255)"
+        },
+        {
+          "field_name": "image_url",
+          "type": "varchar(511)"
+        },
+        {
+          "field_name": "sound_url",
+          "type": "varchar(511)"
+        }
+      ]
+    }
+  ]
 }
