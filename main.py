@@ -1,12 +1,13 @@
 import json
 
-from initializr import Initializr
+from initializr import initialize_project
 
-with open('input.json', 'r') as f:
-    inp = json.load(f)
 
+def get_input():
+    with open('input.json', 'r') as f:
+        return json.load(f)
+
+
+inp = get_input()
 # todo: validate input
-
-init = Initializr(inp)
-init.make_curl()
-init.unzip()
+initialize_project(inp)
