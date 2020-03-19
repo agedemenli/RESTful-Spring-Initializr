@@ -4,6 +4,7 @@ import os
 class Initializr:
     def __init__(self, initializr_params):
         self.app_name = initializr_params['app_name']
+        os.system("rm -rf " + self.app_name + "*")
 
     def make_curl(self):
         os.system('curl https://start.spring.io/starter.zip -d dependencies=security,web -d name=' + self.app_name +
