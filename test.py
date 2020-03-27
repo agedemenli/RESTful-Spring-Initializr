@@ -11,3 +11,4 @@ applicationJava.write(indent * 1 + 'public static void Main()' + space + '{\n')
 applicationJava.write(indent * 2 + 'return;\n')
 applicationJava.write(indent * 1 + '}\n')
 applicationJava.write(indent * 0 + '}\n')
+# test line
